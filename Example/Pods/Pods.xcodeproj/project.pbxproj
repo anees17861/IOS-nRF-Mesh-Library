@@ -173,6 +173,7 @@
 		5158736B98E1AF2E062725EB32699A68 /* GenericOnOffSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C6D4E4451316AF5CCEE45052E0A107 /* GenericOnOffSet.swift */; };
 		52025F119511F4D58FE3172F581DF974 /* MeshNetworkDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BC6C154C64593643FECEB349AADBE2 /* MeshNetworkDelegate.swift */; };
 		52597F4ED19305B572BB21ADE8BB2EF4 /* ConfigLowPowerNodePollTimeoutStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485132F71CF85F1E49BD4E7F4F54B1B1 /* ConfigLowPowerNodePollTimeoutStatus.swift */; };
+		5276B02028252D7100DE8D81 /* Element+Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276B01E2825210D00DE8D81 /* Element+Scenes.swift */; };
 		5298C00B6C7DA3382FA31FB3B0EF2826 /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6529BEEF734D4D9F2920046F56965C4 /* PKCS5.swift */; };
 		52C01C9A0B2DF71FA82659A5ACBB30EA /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695552E839FA4C94D24AA93D92C9D95C /* Algorithm.swift */; };
 		5316D31817C2E95FB1E904E2320EA390 /* GenericPowerLevelSetUnacknowledged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F0FA29205E4B9F7F6F40F36BA3FB8 /* GenericPowerLevelSetUnacknowledged.swift */; };
@@ -660,6 +661,7 @@
 		50B65204E2D18D6830BC7C2F5AC699AC /* SensorMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SensorMessage.swift; sourceTree = "<group>"; };
 		51546F12A683A01A9AD6EBADD449AB11 /* Cryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptor.swift; path = Sources/CryptoSwift/Cryptor.swift; sourceTree = "<group>"; };
 		51A25B918AEEB0BBFF8E9F7A62B3DDA1 /* KeyRefreshPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyRefreshPhase.swift; sourceTree = "<group>"; };
+		5276B01E2825210D00DE8D81 /* Element+Scenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Element+Scenes.swift"; sourceTree = "<group>"; };
 		542C190AF758A80D73ECDA24856253D2 /* SensorGet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SensorGet.swift; sourceTree = "<group>"; };
 		545763176EBF4A09A3A0E89B6C7DD023 /* Updatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Updatable.swift; path = Sources/CryptoSwift/Updatable.swift; sourceTree = "<group>"; };
 		54C73BE1346BAC7E8D1A977260A8F25B /* ConfigGATTProxySet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConfigGATTProxySet.swift; sourceTree = "<group>"; };
@@ -1046,6 +1048,7 @@
 				6FED42EBCA7A847BDB8E266F2D6B9D66 /* ApplicationKey+NetworkKey.swift */,
 				C9435FD555EE1D744E032F775541E14E /* ApplicationKeys.swift */,
 				205FD691DBAC3FB069B5B97A5B0EE16A /* Element+Address.swift */,
+				5276B01E2825210D00DE8D81 /* Element+Scenes.swift */,
 				DE0BBFFC6E03865A969F17675F372E61 /* Element+Keys.swift */,
 				B37BBA98BCC759ABFE83BF6850F6A231 /* Element+Models.swift */,
 				9FE9485FB44EFC7F4ED4A46DF2BF3B0A /* Group+MeshNetwork.swift */,
@@ -2155,6 +2158,7 @@
 				374540B04096A6CB983A0330B0C6E799 /* Address.swift in Sources */,
 				237941340A06B07EA54E04916E5DFC68 /* AddressRange.swift in Sources */,
 				52C01C9A0B2DF71FA82659A5ACBB30EA /* Algorithm.swift in Sources */,
+				5276B01D281C017600DE8D81 /* Documentation.docc in Sources */,
 				16106F578C435FF86D1F65D174F442BB /* ApplicationKey.swift in Sources */,
 				05BCB7204F2EF759A7F86D71B34CA9F1 /* ApplicationKey+MeshNetwork.swift in Sources */,
 				8227B73458C6E628BD7CCF9B8867DF35 /* ApplicationKey+NetworkKey.swift in Sources */,
@@ -2327,6 +2331,7 @@
 				43D930D645728574B0732EA5B5DC4319 /* LightCTLTemperatureStatus.swift in Sources */,
 				961FAEE3208E5073589A03DFA68A9C1E /* LightHSLDefaultGet.swift in Sources */,
 				DA4599E4D6DBD667C230402CA1CA3BA1 /* LightHSLDefaultSet.swift in Sources */,
+				5276B02028252D7100DE8D81 /* Element+Scenes.swift in Sources */,
 				511C28F959E606D82E042DAC28A05783 /* LightHSLDefaultSetUnacknowledged.swift in Sources */,
 				08147A6B321618CA80ED2D26D4D1919F /* LightHSLDefaultStatus.swift in Sources */,
 				9945A96E9364CF89424465004EEEF190 /* LightHSLGet.swift in Sources */,
