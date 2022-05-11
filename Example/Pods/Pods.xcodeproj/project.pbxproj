@@ -173,6 +173,7 @@
 		5158736B98E1AF2E062725EB32699A68 /* GenericOnOffSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C6D4E4451316AF5CCEE45052E0A107 /* GenericOnOffSet.swift */; };
 		52025F119511F4D58FE3172F581DF974 /* MeshNetworkDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BC6C154C64593643FECEB349AADBE2 /* MeshNetworkDelegate.swift */; };
 		52597F4ED19305B572BB21ADE8BB2EF4 /* ConfigLowPowerNodePollTimeoutStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485132F71CF85F1E49BD4E7F4F54B1B1 /* ConfigLowPowerNodePollTimeoutStatus.swift */; };
+		5276B01D281C017600DE8D81 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5276B01C281C017600DE8D81 /* Documentation.docc */; };
 		5276B02028252D7100DE8D81 /* Element+Scenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276B01E2825210D00DE8D81 /* Element+Scenes.swift */; };
 		5276B02228292C2400DE8D81 /* Publish+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276B02128292C2400DE8D81 /* Publish+Utils.swift */; };
 		5298C00B6C7DA3382FA31FB3B0EF2826 /* PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6529BEEF734D4D9F2920046F56965C4 /* PKCS5.swift */; };
@@ -662,6 +663,7 @@
 		50B65204E2D18D6830BC7C2F5AC699AC /* SensorMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SensorMessage.swift; sourceTree = "<group>"; };
 		51546F12A683A01A9AD6EBADD449AB11 /* Cryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cryptor.swift; path = Sources/CryptoSwift/Cryptor.swift; sourceTree = "<group>"; };
 		51A25B918AEEB0BBFF8E9F7A62B3DDA1 /* KeyRefreshPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyRefreshPhase.swift; sourceTree = "<group>"; };
+		5276B01C281C017600DE8D81 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		5276B01E2825210D00DE8D81 /* Element+Scenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Element+Scenes.swift"; sourceTree = "<group>"; };
 		5276B02128292C2400DE8D81 /* Publish+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publish+Utils.swift"; sourceTree = "<group>"; };
 		542C190AF758A80D73ECDA24856253D2 /* SensorGet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SensorGet.swift; sourceTree = "<group>"; };
@@ -1688,6 +1690,7 @@
 				3670ACBCB70EEDE408995ED261D0A2F8 /* Support Files */,
 				8EE43FAEA2233BDF7520E6A762A0C8BB /* Type Extensions */,
 				4804EB8E52925E21FA67AF92ED730CD0 /* Utils */,
+				5276B01C281C017600DE8D81 /* Documentation.docc */,
 			);
 			name = nRFMeshProvision;
 			path = ../..;
